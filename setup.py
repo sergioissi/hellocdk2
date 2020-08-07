@@ -6,7 +6,7 @@ with open("README.md", "r") as fp:
 
 setup(
     name='testlib',
-    version='0.0.9',
+    version='0.0.10',
 
     descritption="A test CDK Python app",
     long_description=long_description,

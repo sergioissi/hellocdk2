@@ -10,4 +10,3 @@ class TestlibcdkStack(core.Stack):
         super().__init__(scope, id, **kwargs)
 
         bucket = s3.Bucket(self, "testlibcdkbucket")
-        bucket2 = s3.Bucket(self, "testlibcdkbucket2")

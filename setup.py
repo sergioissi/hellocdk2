@@ -6,13 +6,13 @@ with open("README.md", "r") as fp:
 
 setup(
     name='testlib',
-    version='0.0.5',
+    version='0.0.6',
 
     descritption="A test CDK Python app",
     long_description=long_description,
     long_description_content_type="text/markdown",
 
-    # package_dir={'': 'src'},
+    package_dir={'': 'src'},
     packages=find_packages(where="src"),
 
     install_requires=[

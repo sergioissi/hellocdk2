@@ -1,9 +1,0 @@
-README.md
-setup.py
-src/testlib/__init__.py
-src/testlib/hellocdk2.py
-src/testlib.egg-info/PKG-INFO
-src/testlib.egg-info/SOURCES.txt
-src/testlib.egg-info/dependency_links.txt
-src/testlib.egg-info/requires.txt
-src/testlib.egg-info/top_level.txt

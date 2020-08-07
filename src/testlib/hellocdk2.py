@@ -12,5 +12,6 @@ class TestlibcdkStack(core.Stack):
         bucket = s3.Bucket(
             self,
             "testlibcdkbucketzord",
-            bucket_name=f"{id}-bucketnamezordz"
+            bucket_name=f"{id}-bucketnamezordz",
+            removal_policy=core.RemovalPolicy.DESTROY
         )

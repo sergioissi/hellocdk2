@@ -12,5 +12,5 @@ class TestlibcdkStack(core.Stack):
         bucket = s3.Bucket(
             self,
             "testlibcdkbucketzord",
-            bucket_name="bucketname"
+            bucket_name="bucketnamezordz"
         )

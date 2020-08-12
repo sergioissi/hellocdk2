@@ -11,8 +11,8 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
 
-    # package_dir={'testlib': 'src'},
-    packages=find_packages(),
+    package_dir={'testlib': 'src'},
+    packages=find_packages(where="src/testlib"),
 
     install_requires=[
         "aws-cdk.core",
@@ -31,8 +31,8 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
 
-    # package_dir={'devopscdk': 'src'},
-    packages=find_packages(),
+    package_dir={'devopscdk': 'src'},
+    packages=find_packages(where="src/devopscdk"),
 
     install_requires=[
         "aws-cdk.core",

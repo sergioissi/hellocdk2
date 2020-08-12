@@ -1,7 +1,0 @@
-README.md
-setup.py
-testlib.egg-info/PKG-INFO
-testlib.egg-info/SOURCES.txt
-testlib.egg-info/dependency_links.txt
-testlib.egg-info/requires.txt
-testlib.egg-info/top_level.txt

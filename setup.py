@@ -45,7 +45,7 @@ setup(
 
 setup(
     name='devopscdk',
-    version='0.0.2',
+    version='0.0.3',
 
     descritption="A test CDK Python app",
     long_description=long_description,
@@ -55,7 +55,7 @@ setup(
     packages=find_packages(where="src"),
 
     install_requires=[
-        "aws-cdk.core",
+        # "aws-cdk.core",
         "aws-cdk.aws-lambda"
     ],
 

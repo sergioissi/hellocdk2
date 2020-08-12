@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: testlib
+Version: 0.0.12
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: # Hello World
+        
+        This is an example project
+        
+        
+        ## Installation
+        
+        ```python
+        pip install hellocdk
+        ```
+        
+        ## Usage
+        
+        ```python
+        from hellocdk import say_hello
+        
+        # Generate "Hello, World!"
+        say_hello()
+        
+        # Generate "Hello, Everybody!"
+        say_hello("Everybody")
+        ```
+        
+        
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

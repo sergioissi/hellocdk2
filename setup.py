@@ -6,14 +6,14 @@ with open("README.md", "r") as fp:
 
 setup(
     name='testlib',
-    version='0.0.12',
+    version='0.0.13',
 
     descritption="A test CDK Python app",
     long_description=long_description,
     long_description_content_type="text/markdown",
 
     package_dir={'': 'src'},
-    packages=find_packages(where="src"),
+    packages=find_packages(),
 
     install_requires=[
         "aws-cdk.core",
@@ -45,14 +45,14 @@ setup(
 
 setup(
     name='devopscdk',
-    version='0.0.3',
+    version='0.0.4',
 
     descritption="A test CDK Python app",
     long_description=long_description,
     long_description_content_type="text/markdown",
 
     package_dir={'': 'src'},
-    packages=find_packages(where="src"),
+    packages=find_packages(),
 
     install_requires=[
         # "aws-cdk.core",

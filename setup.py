@@ -13,7 +13,7 @@ setup(
     long_description_content_type="text/markdown",
 
     package_dir={'testlib': 'src'},
-    packages=find_packages(where="src"),
+    packages=find_packages(),
 
     install_requires=[
         "aws-cdk.core",
@@ -47,12 +47,12 @@ setup(
     name='devopscdk',
     version='0.0.2',
 
-    descritption="A test CDK Python app",
+    descritption="A test CDK Python app 2",
     long_description=long_description,
     long_description_content_type="text/markdown",
 
     package_dir={'devopscdk': 'src'},
-    packages=find_packages(where="src"),
+    packages=find_packages(),
 
     install_requires=[
         "aws-cdk.core",

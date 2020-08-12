@@ -12,7 +12,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
 
-    package_dir={'': 'src'},
+    # package_dir={'': 'src'},
     packages=find_packages(),
 
     install_requires=[
@@ -51,7 +51,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
 
-    package_dir={'': 'src'},
+    # package_dir={'': 'src'},
     packages=find_packages(),
 
     install_requires=[
